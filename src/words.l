@@ -5,11 +5,11 @@
 
 /* Types and Stuff */
 %%
-^[-+]?[0-9]+	 {printf("'%s' = Integer\n", yytext);}
-^[-+]?[0-9]*[.][0-9]+	 {printf("'%s' = Float\n", yytext);}
-([a-zA-Z0-9])* 	 {printf("'%s' = String\n", yytext);}
-"// exit"	 {return 0;}
-.	 {printf("'%s' = Other\n", yytext);}
+^[-+]?[0-9]+	 	{printf("'%s' = Integer\n", yytext);}
+^[-+]?[0-9]*[.][0-9]+	{printf("'%s' = Float\n", yytext);}
+([a-zA-Z0-9])* 	 	{printf("'%s' = String\n", yytext);}
+"// exit"	 	{return 0;}
+.	 		{printf("'%s' = Other\n", yytext);}
 %%
 
 int yywrap(void) {}
