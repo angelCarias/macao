@@ -8,7 +8,7 @@ Go to this [link](https://github.com/angelCarias/macao/blob/master/src/README.md
 For most systems, you can type and use it.
 `macao <optional-file>`
 
-**<optional-file>**: If you want to pass in a file, you can. It will read from such.
+`<optional-file>`: If you want to pass in a file, you can. It will read from such.
 
 ## To Do
 
